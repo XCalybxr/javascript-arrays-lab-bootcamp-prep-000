@@ -14,6 +14,6 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 function appendKitten(mkNewLast){
-var newAppKittens = (...kittens , mkNewLast);
+var newAppKittens = (...kittens, mkNewLast);
   return newAppKittens
 }
