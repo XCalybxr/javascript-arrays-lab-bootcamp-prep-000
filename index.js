@@ -19,4 +19,5 @@ var newAppKittens = [...kittens, mkNewLast];
 }
 funciton prependKitten(mkNewFirst){
   var newPrepKittens = [mkNewFirst, ...kittens];
+  return newPrepKittens
 }
