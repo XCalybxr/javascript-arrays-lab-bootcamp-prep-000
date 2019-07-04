@@ -17,7 +17,7 @@ function appendKitten(mkNewLast){
 var newAppKittens = [...kittens, mkNewLast];
   return newAppKittens
 }
-funciton prependKitten(mkNewFirst){
+function prependKitten(mkNewFirst){
   var newPrepKittens = [mkNewFirst, ...kittens];
   return newPrepKittens
 }
