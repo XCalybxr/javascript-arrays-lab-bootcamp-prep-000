@@ -15,4 +15,5 @@ function destructivelyRemoveFirstKitten(){
 }
 function appendKitten(mkNewLast){
   [...kittens,mkNewLast];
+  return 
 }
