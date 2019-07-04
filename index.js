@@ -4,8 +4,8 @@ var kittens = ["Milo","Otis","Garfield"] //define your array here
 function destructivelyAppendKitten(postAddName){
   kittens.push(postAddName);
 }
-function destructivelyPrependKitten(prepAddName){
-  kittens.unshift(prepAddName);
+function destructivelyPrependKitten(){
+  kittens.unshift();
 }
 function destructivelyRemoveLastKitten(){
   kittens.pop()
