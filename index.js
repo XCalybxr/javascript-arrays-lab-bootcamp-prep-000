@@ -12,4 +12,4 @@ function destructivelyRemoveLastKitten(killLastName){
 }
 //function destructivelyRemoveFirstKitten(killFirstName){
 //  kittens.shift(killFirstName)
-}
+//}
