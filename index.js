@@ -21,3 +21,7 @@ function prependKitten(mkNewFirst){
   var newPrepKittens = [mkNewFirst, ...kittens];
   return newPrepKittens
 }
+function removeLastKitten(){
+ var remlast = kittens.slice(0,-1);
+ return remlast
+}
